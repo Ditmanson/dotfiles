@@ -3,6 +3,10 @@ vim.g.maplocalleader = " "
 
 local opt = vim.opt
 
+-- Absolute number on the current line, relative on every other line.
+opt.number = true
+opt.relativenumber = true
+
 -- 2 spaces, everywhere, no tab characters, no per-filetype overrides.
 opt.expandtab = true
 opt.shiftwidth = 2
