@@ -1,0 +1,6 @@
+alias tn="tmux new-session -s "
+alias t="tmux"
+alias tls="tmux ls"
+alias ta="tmux a -t"
+alias tkill="tmux kill-session -t"
+alias tkilla="tmux kill-session -a"
